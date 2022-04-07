@@ -1,6 +1,6 @@
 import argparse
 
-from parser import parse
+from walmart_discounts.parser import parse
 
 
 def parse_args():

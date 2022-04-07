@@ -6,7 +6,7 @@ import pandas as pd
 from tqdm import tqdm
 from bs4 import BeautifulSoup as bs
 
-from utils import json_dive
+from walmart_discounts.utils import json_dive
 
 FLASH_PICKS_URL_PATTERN = "https://www.walmart.com/shop/deals/flash-picks?affinityOverride=default{page_str}"
 
